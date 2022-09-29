@@ -9,7 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkNet5.Data", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkNet5.Domain", "EntityFrameworkNet5.Domain\EntityFrameworkNet5.Domain.csproj", "{E9D9982F-24DA-4DB2-A59E-97509B548EAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkNet6.ConsoleApp", "EntityFrameworkNet6.ConsoleApp\EntityFrameworkNet6.ConsoleApp.csproj", "{0B21A3EB-6DFB-4FE5-8285-FEBD1731F87A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkNet6.ConsoleApp", "EntityFrameworkNet6.ConsoleApp\EntityFrameworkNet6.ConsoleApp.csproj", "{0B21A3EB-6DFB-4FE5-8285-FEBD1731F87A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF8C0345-76C1-43F9-A7FB-675E8ECC7933}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
