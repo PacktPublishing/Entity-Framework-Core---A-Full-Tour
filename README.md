@@ -1,6 +1,6 @@
 # Entity Framework Core - A Full Tour (.NET 5 and up) - Supporting Files
 
-In this course, [Entity Framework Core - A Full Tour](https://www.packtpub.com/programming/entity-framework-core-a-full-tour-net-5-and-up-video), you will learn to work with data in your .NET applications. 
+In this course, [Entity Framework Core - A Full Tour](https://www.packtpub.com/product/entity-framework-core-a-full-tour-net-5-and-up/9781803242231), you will learn to work with data in your .NET applications. 
 
 Most times when course are created for .NET technologies, the details of Entity Framework and it's sheer power are neglected. We get distracted with abstractions and layers and don't focus on what Entity Framework is doing and can do. 
 
