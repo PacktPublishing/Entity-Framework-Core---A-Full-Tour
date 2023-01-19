@@ -1,11 +1,8 @@
 ﻿/* Simple Insert Operation Methods */
 using EntityFrameworkNet5.Data;
-using EntityFrameworkNet5.Domain;
 using Microsoft.EntityFrameworkCore;
 
-
-FootballLeageDbContext context = new FootballLeageDbContext();
-
+var context = new FootballLeageDbContext();
 
 //await AddNewLeague();
 //await AddNewTeamsWithLeague();
@@ -68,8 +65,6 @@ FootballLeageDbContext context = new FootballLeageDbContext();
 /* RAW SQL Non-Query Commands */
 ////await ExecuteNonQueryCommand();
 
-
-
 /* Select History Of Teams Table */
 await TeamsQueries();
 await TeamsHistoryTemporalQueries();
@@ -98,8 +93,6 @@ async Task TeamsHistoryTemporalQueries()
         Console.WriteLine($"Id: {item.Id} | Team: {item.Name}");
     }
 }
-
-
 
 ////async Task ExecuteNonQueryCommand()
 ////{
@@ -196,7 +189,6 @@ async Task TeamsHistoryTemporalQueries()
 ////        .Include(q => q.Coach)
 ////        .ToListAsync();
 ////}
-
 
 ////async Task TrackingVsNoTracking()
 ////{
